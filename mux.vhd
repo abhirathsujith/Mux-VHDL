@@ -7,7 +7,7 @@ entity mux is
 port (A,B,C,D: in std_logic; S0,S1: in std_logic; Z: out std_logic);
 end mux;
 
-architecture Behavioral of muxb is
+architecture Behavioral of mux is
 
 begin
 
