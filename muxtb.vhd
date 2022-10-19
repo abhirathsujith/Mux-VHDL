@@ -7,7 +7,7 @@ entity muxtb is
 end muxtb;
 
 architecture MUX1TB of muxtb is
-component mux 
+component muxb 
 
 port (A,B,C,D: in std_logic; S0,S1: in std_logic; Z: out std_logic);
 
